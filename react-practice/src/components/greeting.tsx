@@ -1,7 +1,4 @@
-interface Greetings  {
-    name: string; 
-    age: number; 
-}
+import {Greetings} from '../data/greeting'
 
 const Greeting: React.FC<Greetings>= ({name, age}) => {
 
